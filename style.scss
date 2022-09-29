@@ -15,44 +15,54 @@ Text Domain: twentytwenty
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
 @import url("https://use.typekit.net/zye7eme.css");
+
+$font-head: pt-serif, serif;
+$font-body: elza-text, sans-serif;
+
 body {
-  margin: 0;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: normal;
-  word-wrap: break-word;
-  font-kerning: normal;
-  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
-  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
-  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
-  font-feature-settings: "kern", "liga", "clig", "calt"; }
+    margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-weight: normal;
+	word-wrap: break-word;
+	font-kerning: normal;
+	-moz-font-feature-settings: "kern", "liga", "clig", "calt";
+	-ms-font-feature-settings: "kern", "liga", "clig", "calt";
+	-webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+	font-feature-settings: "kern", "liga", "clig", "calt";
+
+}
 
 html {
-  margin: 0;
-  padding: 0;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  font: 112.5%/1.45em georgia, serif, sans-serif;
-  scroll-behavior: smooth;
-  box-sizing: border-box;
-  overflow-y: scroll; }
+    margin: 0;
+	padding: 0;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font: 112.5%/1.45em georgia, serif, sans-serif;
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+	overflow-y: scroll;
+}
 
 h1 {
-  font-family: pt-serif, serif;
-  font-weight: 400;
-  font-style: normal; }
+	font-family: $font-head;
+	font-weight: 400;
+	font-style: normal;
+}
 
 h2 {
-  font-family: pt-serif, serif;
-  font-weight: 400;
-  font-style: normal; }
+	font-family: $font-head;
+	font-weight: 400;
+	font-style: normal;
+}
 
 p {
-  font-family: elza-text, sans-serif;
-  font-weight: 400;
-  font-style: normal; }
-
-/*# sourceMappingURL=style.css.map */
+	font-family: $font-body;
+	font-weight: 400;
+	font-style: normal;
+}
